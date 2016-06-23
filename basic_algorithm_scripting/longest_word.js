@@ -13,7 +13,6 @@ function findLongestWord(str) {
 	for (var i = 0; i < strArray.length; i++) {
 		if (strArray[i] !== " ") {
 			counterArray.push(strArray[i]);
-			console.log('CA: ' + counterArray);
 		} else {
 			if (counterArray.length > oldArray.length) {
 				oldArray = counterArray;	
@@ -22,7 +21,7 @@ function findLongestWord(str) {
 		}
 	}
 
-	if (counterArray.length > oldArray.length) {
+	if (counterArray.length > oldArray.length) { // in case the last word was the longest!
 		return counterArray.length;
 	} else {
 		return oldArray.length;
