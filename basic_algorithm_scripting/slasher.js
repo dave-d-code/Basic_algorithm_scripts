@@ -2,10 +2,8 @@
 
 function slasher(arr, howMany) {
   
-  arr.splice(0, howMany);
-  console.log(arr);
-
-  return arr;
+  arr.splice(0, howMany); // stuff deleted from the array
+  return arr; // give back whats left
 }
 
 slasher([1, 2, 3], 2);
