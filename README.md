@@ -5,3 +5,5 @@ Part of FreeCodeCamp Challenges.
 
 These are my own Js files in repsonse to the code challenges. If you are from FCC, you should really be doing your own work! :-)
 
+No really, please dont cheat. This repo is here for my own benefit.
+
